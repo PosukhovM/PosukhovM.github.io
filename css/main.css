@@ -90,7 +90,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #81d4fa;
+	color: #FF0077;
 	outline: 0;
 }
 
@@ -600,7 +600,7 @@ input[type="password"]:focus,
 textarea:focus,
 select:focus {
 	color: #cc005f;
-	border-bottom: 1px solid #81d4fa;
+	border-bottom: 1px solid #FF0077;
 }
 label, legend {
 	font-family: "poppins-bold", sans-serif;
@@ -707,12 +707,12 @@ a.button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
 input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover/*,
+input[type="button"].button-primary:hover,
 .button.button-primary:focus,
 button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus*/ {
+input[type="button"].button-primary:focus {
 	background: #050505;
 }
 button.full-width, .button.full-width {
@@ -1454,9 +1454,8 @@ header .logo a:hover {
 #about-me {
 	z-index: 601;
 }
-.intro-content .button:hover/*, .intro-content .button:focus*/ {
+.intro-content .button:hover, .intro-content .button:focus {
 	border-color: #81d4fa;
-
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1531,6 +1530,8 @@ header .logo a:hover {
 	margin: 0 20px;
 	padding: 0;
 	font-family: "poppins-medium", sans-serif;
+
+
 }
 
 .intro-social li a, .intro-social li a:visited {
@@ -1541,7 +1542,7 @@ header .logo a:hover {
 	transition: all 0.5s ease-in-out;
 	color: #FFFFFF;
 }
-.intro-social li a:hover/*, .intro-social li a:focus*/ {
+.intro-social li a:hover, .intro-social li a:focus {
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -1549,7 +1550,6 @@ header .logo a:hover {
 	transition: all 0.5s ease-in-out;
 	color: #81d4fa;
 }
-
 /**
  * responsive:
  * Intro
