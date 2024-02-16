@@ -170,10 +170,10 @@ toggleButton.on('mouseleave', function() {
    	     
   	});
 
-  	$(window).on('click', function(e) {
+  	$(window).on('click', function(ea) {
     // Проверяем, произошел ли клик вне навигационного меню и кнопки
-    if (!$(e.target).closest('.main-navigation').length && !$(e.target).closest('.menu-toggle').length) {
-        e.preventDefault();
+    if (!$(ea.target).closest('.main-navigation').length && !$(ea.target).closest('.menu-toggle').length) {
+        //ea.preventDefault();//
         toggleButton.removeClass('is-clicked');
         if (nav.is(":visible")) {
     nav.slideUp();
