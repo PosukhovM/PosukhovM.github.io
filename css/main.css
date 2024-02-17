@@ -167,7 +167,7 @@ em, i, strong, b {
 	font-size: 1.7rem;
 	line-height: 3rem;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 }
 em, i {
 	font-family: "lora-italic", serif;
@@ -1023,6 +1023,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .skill-bars #frontendbar {
 	right: -59.6px;
+	white-space: nowrap; /* Предотвращаем перенос текста на новую строку */
+}
+.skill-bars #nahodbar {
+	right: -33.6px;
 	white-space: nowrap; /* Предотвращаем перенос текста на новую строку */
 }
 .skill-bars li .progress span::after {
