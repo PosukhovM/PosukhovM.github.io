@@ -362,7 +362,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
     var headhunterf = document.getElementById("headhunterf");
     var tooltip2 = document.getElementById("tooltip-text2");
 
@@ -374,6 +374,6 @@ document.addEventListener("DOMContentLoaded", function() {
     headhunterf.addEventListener("mouseout", function() {
         tooltip2.style.opacity = 0;
     });
-});
+});*/
 
 })(jQuery);

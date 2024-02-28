@@ -769,6 +769,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	cursor: default;
 }
 
+#resume-button {
+	cursor: default;
+}
 /** 
  * ===================================================================
  * 07. other components - (_others.scss)
@@ -1150,7 +1153,7 @@ header .top-bar {
 	display: block;
 	background: #151515;
 	min-width: 190px;
-	min-height: 66px;
+	min-height: 67px;
 	position: absolute;
 	left: -30px;
 	top: 0;
@@ -1201,7 +1204,7 @@ header .logo a:hover {
 	float: left;
 	width: 40px;
 	height: 40px;
-	margin-left: 20px;
+	margin-left: 3px;
 	margin-top: 13px;
 	display: block;
 	position: relative;
@@ -1485,7 +1488,7 @@ header .logo a:hover {
 	padding: 0;
 }
 #headhunter {
-	cursor: default;
+	cursor: pointer;
 }
 #tooltip-text {
 	display: inline-block;
@@ -1736,6 +1739,11 @@ header .logo a:hover {
 	}
 	.button-section [class*="col-"] .button:first-child {
 		margin-right: 0;
+	}
+	#tooltip-text1 {
+		position: relative;
+		top: -8px;
+		padding: 7px 5px;
 	}
 }
 @media only screen and (max-width:600px) {
@@ -2705,7 +2713,7 @@ footer .copyright span:last-child::after {
 	display: none;
 }
 #headhunterf {
-	cursor: default;
+	cursor: pointer;
 	font-family: "Roboto Condensed", sans-serif;
 }
 #headhunterf:hover {
