@@ -769,9 +769,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	cursor: default;
 }
 
-#resume-button {
+/*#resume-button {
 	cursor: default;
-}
+}*/
 /** 
  * ===================================================================
  * 07. other components - (_others.scss)

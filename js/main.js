@@ -348,7 +348,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
     var resumebutton = document.getElementById("resume-button");
     var tooltip1 = document.getElementById("tooltip-text1");
 
@@ -360,7 +360,7 @@ document.addEventListener("DOMContentLoaded", function() {
     resumebutton.addEventListener("mouseout", function() {
         tooltip1.style.opacity = 0;
     });
-});
+});*/
 
 /*document.addEventListener("DOMContentLoaded", function() {
     var headhunterf = document.getElementById("headhunterf");
@@ -375,5 +375,13 @@ document.addEventListener("DOMContentLoaded", function() {
         tooltip2.style.opacity = 0;
     });
 });*/
+
+document.getElementById('resume-button').addEventListener('click', function() {
+    var link = document.createElement('a');
+    link.href = 'resume/PosukhovM_resume.pdf'; // Укажите путь к вашему файлу
+    link.download = 'PosukhovM_resume.pdf';
+    link.click();
+    link.remove();
+});
 
 })(jQuery);
