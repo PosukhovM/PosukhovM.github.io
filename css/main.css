@@ -2376,6 +2376,10 @@ header .logo a:hover {
 	#stats .stat:nth-child(3n+1) {
 		border: none;
 	}
+	.skill-bars li .progress span::after {
+	left: 48%;
+	bottom: 21.7px;
+}
 }
 @media only screen and (max-width:768px) {
 	#stats .stat:nth-child(n) {
@@ -2384,13 +2388,38 @@ header .logo a:hover {
 	#stats .stat:nth-child(2n+1) {
 		border: none;
 	}
+	.skill-bars li .progress span::after {
+	left: 50%;
+}
 }
 @media only screen and (max-width:600px) {
 	#stats .stat:nth-child(n) {
 		border: none;
 	}
 }
+@media only screen and (max-width:400px) {
+.skill-bars li .progress span::after {
+	left: 48%;
 
+}
+.skill-bars #nahodbar {
+	right: -23.6px;
+}
+.skill-bars li .progress span#nahodbar::after {
+	left: 62.6%;
+
+}
+.skill-bars li .progress span#backendbar::after {
+	left: 47%;
+
+}
+}
+@media only screen and (max-width:327.2px) {
+
+.skill-bars li strong#nahodtext {
+	line-height: 1.5rem;
+}
+}
 
 /** 
  * ===================================================================
